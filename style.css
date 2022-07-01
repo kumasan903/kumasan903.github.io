@@ -1,16 +1,19 @@
 /* ヘッダーとヘッダーメニュー */
 * {
     box-sizing: border-box;
+    font-family: 'Noto Sans JP';
+    color: #303030;
 }
 
 header {
     width: 100%;
-    padding: 30px 4% 10px;
+    padding: 20px 40px 20px;
     background-color: #fff;
     position: fixed;
     top: 0;
     display: flex;
     align-items: center;
+    box-shadow: 0 0 20px rgba(0,0,0,.05);
 }
 
 h1 {
@@ -18,9 +21,8 @@ h1 {
     font-size: 20px;
 }
 
-a {
+.topmenu-text {
     text-decoration: none;
-    color: #4b4b4b;
 }
 
 ul {
@@ -36,4 +38,21 @@ li {
 
 nav {
     margin: 0 0 0 auto;
+}
+
+body {
+    padding: 69px 0 0;
+}
+
+.content {
+    padding: 0 15% 0;
+}
+
+h2 {
+    padding: 5px 15px 10px;
+    border-left: 3px solid #303030;
+}
+
+h3 {
+
 }

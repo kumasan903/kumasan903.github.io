@@ -1,8 +1,8 @@
 /* ヘッダーとヘッダーメニュー */
 * {
     box-sizing: border-box;
-    font-family: 'Noto Sans JP';
     color: #303030;
+    font-family: "Noto Sans JP", "sans-serif";
 }
 
 header {
@@ -59,4 +59,11 @@ h3 {
 
 .sns-icon {
     padding: 0 5px 0 0;
+}
+
+@font-face {
+    src: url("/fonts/NotoSansJP-Regular.woff");
+    font-family: "Noto Sans JP";
+    font-style: normal;
+    font-display: swap;
 }
